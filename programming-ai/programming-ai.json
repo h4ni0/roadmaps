@@ -1,0 +1,649 @@
+{
+  "topics": [
+    {
+      "id": "literacy",
+      "label": "محو الأمية",
+      "right": [
+        {
+          "id": "sw-vs-hw",
+          "label": "ما الفرق بين Software و Hardware؟",
+          "check": "green"
+        },
+        {
+          "id": "how-computer",
+          "label": "كيف يعمل الحاسوب؟",
+          "check": "green"
+        },
+        {
+          "id": "what-program",
+          "label": "ما هو البرنامج؟",
+          "check": "green"
+        },
+        {
+          "id": "what-website",
+          "label": "ما هو الموقع؟",
+          "check": "green"
+        },
+        {
+          "id": "what-app",
+          "label": "ما هو التطبيق؟",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "how-internet",
+          "label": "كيف يعمل الإنترنت؟",
+          "check": "green"
+        },
+        {
+          "id": "client-server",
+          "label": "الخادم والعميل والاستضافة",
+          "check": "green"
+        },
+        {
+          "id": "frontend-backend",
+          "label": "الواجهة الأمامية والخلفية",
+          "check": "green"
+        },
+        {
+          "id": "api-intro",
+          "label": "الواجهات البرمجية - API",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "prog-basics",
+      "label": "أساسيات البرمجة",
+      "right": [
+        {
+          "id": "variables",
+          "label": "المتغيرات وأنواعها",
+          "check": "green"
+        },
+        {
+          "id": "conditions",
+          "label": "الشروط",
+          "check": "green"
+        },
+        {
+          "id": "loops",
+          "label": "الحلقات",
+          "check": "green"
+        },
+        {
+          "id": "functions",
+          "label": "الدوال",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "io",
+          "label": "إدخال وإخراج البيانات",
+          "check": "green"
+        },
+        {
+          "id": "file-ops",
+          "label": "قراءة الملفات والتعديل عليها",
+          "check": "green"
+        },
+        {
+          "id": "error-handling",
+          "label": "الأخطاء والتعامل معها",
+          "check": "green"
+        },
+        {
+          "id": "data-structures-basic",
+          "label": "هياكل البيانات الأساسية",
+          "check": "green"
+        },
+        {
+          "id": "testing-basics",
+          "label": "أساسيات الاختبارات",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "dev-env",
+      "label": "بيئة التطوير",
+      "right": [
+        {
+          "id": "code-editor",
+          "label": "محرر الأكواد",
+          "check": "green"
+        },
+        {
+          "id": "cli",
+          "label": "سطر الأوامر",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "version-control",
+      "label": "إدارة الإصدارات",
+      "right": [
+        {
+          "id": "git",
+          "label": "Git",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "github",
+          "label": "GitHub",
+          "check": "green"
+        },
+        {
+          "id": "gitlab",
+          "label": "GitLab",
+          "check": "gray"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "label": "قواعد البيانات",
+      "right": [
+        {
+          "id": "relational-db",
+          "label": "قاعدة البيانات العلائقية",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "document-db",
+          "label": "قاعدة البيانات المستندية",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "app-building",
+      "label": "كيف تُبنى التطبيقات",
+      "right": [
+        {
+          "id": "frontend",
+          "label": "الواجهة الأمامية",
+          "check": "green"
+        },
+        {
+          "id": "backend",
+          "label": "الواجهة الخلفية",
+          "check": "green"
+        },
+        {
+          "id": "file-storage",
+          "label": "تخزين الملفات",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "auth",
+          "label": "المصادقة",
+          "check": "green"
+        },
+        {
+          "id": "rest-api",
+          "label": "REST API",
+          "check": "green"
+        },
+        {
+          "id": "json",
+          "label": "JSON",
+          "check": "green"
+        },
+        {
+          "id": "endpoint",
+          "label": "نقطة الوصول - Endpoint",
+          "check": "green"
+        },
+        {
+          "id": "status-codes",
+          "label": "رموز الحالة - Status Codes",
+          "check": "green"
+        },
+        {
+          "id": "authn-vs-authz",
+          "label": "الفرق بين Authentication و Authorization",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "app-arch",
+      "label": "معمارية التطبيقات",
+      "right": [
+        {
+          "id": "monolith",
+          "label": "Monolith",
+          "check": "green"
+        },
+        {
+          "id": "microservices",
+          "label": "Microservices",
+          "check": "green"
+        }
+      ],
+      "left": [
+        {
+          "id": "cache",
+          "label": "Cache - التخزين المؤقت",
+          "check": "green"
+        },
+        {
+          "id": "logging",
+          "label": "Logging - التسجيل",
+          "check": "green"
+        },
+        {
+          "id": "serverless",
+          "label": "Serverless - بلا سيرفر",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "security-basics",
+      "label": "أساسيات الأمن السيبراني",
+      "right": [
+        {
+          "id": "common-vulns",
+          "label": "أهم الثغرات الأساسية",
+          "check": "green"
+        },
+        {
+          "id": "app-security",
+          "label": "أمان التطبيقات",
+          "check": "green"
+        }
+      ]
+    },
+    {
+      "id": "specialize",
+      "label": "التخصص",
+      "right": [
+        {
+          "id": "web-dev",
+          "label": "تطوير الويب",
+          "children": [
+            { "id": "html-css", "label": "HTML & CSS" },
+            { "id": "js-ts", "label": "JavaScript / TypeScript" },
+            { "id": "frontend-fw", "label": "إطار الواجهة الأمامية" },
+            { "id": "backend-fw", "label": "إطار الواجهة الخلفية" }
+          ]
+        },
+        {
+          "id": "mobile-dev",
+          "label": "تطوير تطبيقات الجوال",
+          "children": [
+            { "id": "cross-platform", "label": "Flutter / React Native" },
+            { "id": "ios-dev", "label": "iOS - Swift" },
+            { "id": "android-dev", "label": "Android - Kotlin" }
+          ]
+        }
+      ],
+      "left": [
+        {
+          "id": "desktop-dev",
+          "label": "تطوير سطح المكتب",
+          "children": [
+            { "id": "electron", "label": "Electron" },
+            { "id": "dotnet-desktop", "label": ".NET (WPF / WinForms)" },
+            { "id": "qt-gtk", "label": "Qt / GTK" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-basics",
+      "label": "أساسيات الـAI"
+    },
+    {
+      "id": "cs",
+      "label": "علوم الحاسوب",
+      "right": [
+        {
+          "id": "cpu-memory",
+          "label": "كيف يعمل المعالج والذاكرة",
+          "check": "purple"
+        },
+        {
+          "id": "os",
+          "label": "نظام التشغيل",
+          "check": "purple"
+        },
+        {
+          "id": "program-exec",
+          "label": "كيف يُنفَّذ البرنامج",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "data-structures",
+          "label": "هياكل البيانات",
+          "check": "purple"
+        },
+        {
+          "id": "algorithms",
+          "label": "الخوارزميات",
+          "check": "purple"
+        },
+        {
+          "id": "big-o",
+          "label": "التعقيد الزمني - Big O",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "prog-deep",
+      "label": "البرمجة بعمق",
+      "right": [
+        {
+          "id": "master-language",
+          "label": "إتقان لغة واحدة",
+          "check": "purple"
+        },
+        {
+          "id": "paradigms",
+          "label": "OOP, Functional, Procedural",
+          "check": "purple"
+        },
+        {
+          "id": "design-patterns",
+          "label": "أنماط التصميم - Design Patterns",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "clean-code",
+          "label": "كتابة كود نظيف",
+          "check": "purple"
+        },
+        {
+          "id": "code-reading",
+          "label": "قراءة كود الآخرين",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "networking-deep",
+      "label": "الشبكات بعمق",
+      "right": [
+        {
+          "id": "tcp-ip",
+          "label": "TCP/IP",
+          "check": "purple"
+        },
+        {
+          "id": "udp",
+          "label": "UDP",
+          "check": "purple"
+        },
+        {
+          "id": "dns",
+          "label": "DNS",
+          "check": "purple"
+        },
+        {
+          "id": "http",
+          "label": "HTTP/HTTPS",
+          "check": "purple"
+        },
+        {
+          "id": "tls",
+          "label": "TLS",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "load-balancer",
+          "label": "Load Balancer",
+          "check": "purple"
+        },
+        {
+          "id": "reverse-proxy",
+          "label": "Reverse Proxy",
+          "check": "purple"
+        },
+        {
+          "id": "network-security",
+          "label": "أساسيات أمان الشبكات",
+          "check": "purple"
+        },
+        {
+          "id": "graphql",
+          "label": "GraphQL",
+          "check": "purple"
+        },
+        {
+          "id": "websocket",
+          "label": "WebSocket",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "db-deep",
+      "label": "قواعد البيانات بعمق",
+      "right": [
+        {
+          "id": "db-design",
+          "label": "تصميم قواعد البيانات",
+          "check": "purple"
+        },
+        {
+          "id": "indexing",
+          "label": "الفهرسة - Indexing",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "sql-vs-nosql",
+          "label": "SQL vs NoSQL",
+          "check": "purple"
+        },
+        {
+          "id": "transactions",
+          "label": "Transactions و ACID",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "label": "التزامن والبرمجة غير المتزامنة",
+      "right": [
+        {
+          "id": "sync-async",
+          "label": "Sync vs Async",
+          "check": "purple"
+        },
+        {
+          "id": "threads-processes",
+          "label": "العمليات والخيوط - Threads & Processes",
+          "check": "purple"
+        },
+        {
+          "id": "async-patterns",
+          "label": "Async/Await, Promises, Callbacks",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "race-conditions",
+          "label": "Race Conditions و Deadlocks",
+          "check": "purple"
+        },
+        {
+          "id": "event-loop",
+          "label": "Event Loop والـNon-blocking I/O",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "label": "تصميم الأنظمة - System Design",
+      "right": [
+        {
+          "id": "scalability",
+          "label": "Scalability - التوسع",
+          "check": "purple"
+        },
+        {
+          "id": "message-queues",
+          "label": "Message Queues",
+          "check": "purple"
+        },
+        {
+          "id": "event-driven",
+          "label": "Event-Driven Architecture",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "cap-theorem",
+          "label": "CAP Theorem",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sw-engineering",
+      "label": "هندسة البرمجيات",
+      "right": [
+        {
+          "id": "git-deep",
+          "label": "Git بعمق",
+          "check": "purple"
+        },
+        {
+          "id": "code-review",
+          "label": "مراجعة الكود - Code Review",
+          "check": "purple"
+        },
+        {
+          "id": "testing-deep",
+          "label": "الاختبارات بعمق",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "cicd",
+          "label": "CI/CD",
+          "check": "purple"
+        },
+        {
+          "id": "documentation",
+          "label": "التوثيق الفعّال",
+          "check": "purple"
+        },
+        {
+          "id": "package-managers",
+          "label": "مدير الحزم والاعتماديات - Package Managers",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "security-deep",
+      "label": "الأمان بعمق",
+      "right": [
+        {
+          "id": "owasp",
+          "label": "OWASP Top 10",
+          "check": "purple"
+        },
+        {
+          "id": "encryption",
+          "label": "التشفير - Encryption",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "oauth-jwt",
+          "label": "OAuth, JWT, Sessions",
+          "check": "purple"
+        },
+        {
+          "id": "ai-code-security",
+          "label": "أمان كود الـAI",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "infra",
+      "label": "البنية التحتية - Infrastructure",
+      "right": [
+        {
+          "id": "docker",
+          "label": "Docker",
+          "check": "purple"
+        },
+        {
+          "id": "kubernetes",
+          "label": "Kubernetes",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "cloud",
+          "label": "Cloud - الحوسبة السحابية",
+          "check": "purple"
+        },
+        {
+          "id": "monitoring",
+          "label": "المراقبة والتنبيهات - Monitoring",
+          "check": "purple"
+        }
+      ]
+    },
+    {
+      "id": "expert-mindset",
+      "label": "عقلية المرجع",
+      "right": [
+        {
+          "id": "evaluate-ai",
+          "label": "تقييم مخرجات الـAI",
+          "check": "purple"
+        },
+        {
+          "id": "debugging",
+          "label": "تفكيك المشاكل - Debugging Mindset",
+          "check": "purple"
+        }
+      ],
+      "left": [
+        {
+          "id": "tradeoffs",
+          "label": "فهم المقايضات - Tradeoffs",
+          "check": "purple"
+        },
+        {
+          "id": "continuous-learning",
+          "label": "التعلم المستمر",
+          "check": "purple"
+        }
+      ]
+    }
+  ]
+}
